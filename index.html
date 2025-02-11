@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coca-Cola</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="page1">
+    <div id="navbar">
+        <a href="#">Products</a>
+        <img src="coca-cola logo.png" alt="">
+        <i class="ri-menu-3-line"></i>
+    </div>
+    <div id="heading1">
+    <span> Refreshing </span> <br>
+    <span> Iconic </span> <br>
+    <span> Timeless </span>
+    </div>
+    <model-viewer id="model-1" src="/coke_zero.glb" loading="eager" camera-controls disable-zoom shadow-intensity="1">  
+
+    </model-viewer>
+    <div id="cursor">
+
+    </div>
+    <div id="sliding-nav">
+        <a href="#">Work</a>
+        <a href="#">Services</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Promotions</a>
+        <i class="ri-close-large-line"></i>
+    </div>
+    </div>
+    <div id="page2">
+    <div id="box-container">    
+    <div id="box-1">Coca-Cola</div>
+    <div id="box-2">Coke-Zero</div>
+    <div id="box-3">Diet-Coke</div>
+    </div>
+    <model-viewer id="model-2" src="/old_coca_cola_can.glb" loading="eager" camera-controls disable-zoom shadow-intensity="1" auto-rotate> </model-viewer>
+    <model-viewer id="model-3" src="/coca-_cola_zero_sugar_byte.glb" loading="eager" camera-controls disable-zoom shadow-intensity="1" auto-rotate> </model-viewer>
+    </div>
+    <div id="page3">
+    <div id="heading2">
+    <span> Crisp </span> <br>
+    <span> Refreshing </span> <br>
+    <span> Royale </span>
+    </div>
+    </div>
+    <div id="page4">
+        <div id="heading3">
+           <span> Try It Now. </span> <br> 
+            <span> Love It Forever. </span>
+        </div>
+        <model-viewer id="model-4" src="/coca_cola_cans.glb" contrast="1" camera-controls loading="eager" auto-rotate rotation-per-second="70deg" disable-zoom shadow-intensity="1"> </model-viewer>
+    <h2> "Coca Cola"  </h2>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script> 
+    <script src="script.js"> </script>
+</body>
+
+</html>
